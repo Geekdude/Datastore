@@ -16,6 +16,12 @@ Dictionary-like object that exposes its keys as attributes.
 6
 ```
 
+## Use as a dependency
+
+```txt
+"datastore-ayoung48 @ git+ssh://git@github.com/Geekdude/Datastore.git",
+```
+
 ## Development
 Use
 
@@ -33,3 +39,4 @@ then instal the wheel using pip.
 
     python3 setup.py bdist_wheel
     pip3 install --user dist/<wheel_file>
+
